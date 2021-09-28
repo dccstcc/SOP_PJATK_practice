@@ -1,0 +1,8 @@
+subject 2.3
+character, ASCII,  litera³, wyra¿enie, zmienna, EBCDIC, "\\" ,  \n  , LF ,  \r  , CR  , \a  , BEL  ,
+\0  ,  nul  , char='\octal_number'  ,  char="\xHEX" , char jest podobny do int ,
+subject 2.4
+==, !=, bindings,  binary op, greater than or equal op, > < <= >= maja wiekszy priorytet niz == != i maja left-side binding,
+int i,j,k | i=j<=k | i=1 or i=0, priorytet operatorów, unary, binary, if(0 || 1 || true || false || np.3), block, K&R style for block,
+subject 2.5
+input, output, puts a printf, printf format, %d %x %o %c %f %% \n %04f %02f %9.2f, scanf, & , 

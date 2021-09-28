@@ -1,0 +1,20 @@
+chapter 3.1
+if-else-if-else, 
+chapter 3.2
+int-4bajty, short int long unsigned longlong, char - bajt , unsigned char, litera³ - 1982L lub 33l
+czasami przekroczenie zakresu int inicjuje zakres long, long float a double - zakres czêœci u³amkowej 8 a 15-17
+przekroczenie zakresu zmiennej 
+chapter 3.3
+rzutowanie jawne i niejawne, rzutowanie niejwane regu³y: (dokóki wszystkie zmienne nie s¹ tego samego typu wykonuj):
+char, short int -> integer (integer promotion), jeœli jest conajmniej jeden float to reszta na float, analogicznie dla double i long int
+ostatecznie kontekst wymusza rzutowanie na koñcowy wynik np jeœli wynik przypisany jest do zmiennej o danym typie, wysoki priorytet rzutowania, rzutownie - unary
+pseudo-kod
+chapter 3.4
+loop, loop body, ture or 1, 4, -3 etc, false or 0, inicjator zmiennej, do-while, for, while
+chapter 3.5
+koniunkcja, alternatywa(dysjunkcja), binary && prorytet, truth table, || jest prirytet ni¿ej od &&, operator negacji priorytet na równi z arg inkrementacji i dekrementacji,
+operatory bitowe, & | ~ ^  , operatory bitowe a logiczne ró¿nnica - drugie odwo³uja siê do typu zmiennej, pierwsze do bitowej reprezentacji zmiennej,
+róznica miêdzy int k = i && j, int k = i & j, ró¿nica miedzy !k a ~k, operatory bitowe mog¹ by skrócone znakiem &= |= ^= ale nie ~= bo jest unarny, operatory logiczne nie mog¹ byæ skracane np nie dla &&=,
+maski bitowe, ustawienie bitu, zerowanie bitu, odczytywanie bitu, negacja bitu, >> <<, 12345*10 to 123450 czyli 12345<<1 dla hexów *16 i krotnoœc 16 a dla binarnego krotnoœæ 2, dzilenie to >> a mno¿enie to <<,
+<< >> maj¹ wysoki priorytet, shifting logiczny i arytmetyczny, dla logicznego musi byc zmienna unsigned int, arytmetyczny uwzglednia bit znaku(+ -), >>= dzilenie przez 2, <<= mno¿enie przez 2, <<=2 dzielenie przez 4, <<=3 przez 8 etc.
+ nibbl, high low nibble

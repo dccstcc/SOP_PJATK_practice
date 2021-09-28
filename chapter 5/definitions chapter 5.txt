@@ -1,0 +1,27 @@
+chapter 5.1
+'' -> char
+"" -> char*
+t[i] === *(t+i) === *(i+t) === i[t]
+word[1]='a' === 1[word]='a'
+p = &word[1] === p=word+1
+*p++ a (*p)++
+p[-1] = 'e'
+chapter 5.2
+problemy - niezainicjowany wskaŸnik, próba przypisania do niego stringa, próba wyœwietlenia wartoœci takiego wskaŸnika
+przekroczenie zakresu tablicy, brak terminacji stringa, 
+chapter 5.3
+tablice wielowymiarowe, przyk³ady praktyczne zastosowania, macierz
+chapter 5.4
+void *p, nie mozna *p=1, <stdlib.h>, void *malloc(int size), void free(void *pointer), dynamiczna alokacja tablicy,
+chapter 5.5
+int **p, tablice wskaŸników, 
+chapter 5.6
+int *array[10], int (*array)[10], int *(*array)[10]
+chapter 5.7
+struct, selector,
+chapter 5.8
+struct deklaracje, nazewnictwo, {} a . przy przypisaniu wartoœci, pomijanie nawiasów przy przypisaniu wartoœci strukturze zagnie¿d¿onej,
+chapter 5.9 
+wskaŸniki i struktury, operator -> , unie, unie a struktury, 
+chapter 5.10
+jednostronna linked lista, pole wskaxnikowe struktury na sam¹ siebie, (head, next, value, tail==null),  

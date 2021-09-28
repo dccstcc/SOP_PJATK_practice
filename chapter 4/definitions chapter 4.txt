@@ -1,0 +1,24 @@
+chapter 4.1
+switch-case-literal(wartoœæ znan na etapie kompilacji, nie mo¿e byæ zmienna), 
+chapter 4.2
+skalary, wektory, index, indeksowanie
+chapter 4.3
+sortowanie rosnaco, malej¹co, bubble-sort-for+while
+chapter 4.4
+niezadeklarowane wartoœci tablicy = 0, mo¿e byæ tak tab[] = {1, 2, 3, 4} wtedy == tab[4]
+chapter 4.5
+tablice ró¿nych typów
+chapter 4.6
+wskaŸniki, adres, wartoœæ spod adresu, wskaŸniki na dowolny typ, null pointer *p = 0, nie wolno bezpoœrednio przypisaæ wartoœci wskaŸnikowi,
+null a macro, null jest w <stdio.h> lub <stddef.h>, mo¿e byc *p=null, operator referencji &, *p jako wartoœæ spod adresu - dereferencja np printf("%d", *p) 
+ale uwaga na *p=2, wtedy zmieniamy adres, p=2 (chyba niedozwolone), dereferencja nullowych wskaxników jest zabroniona, mo¿e byæ wskaŸnik void jako dowolnego typu,
+unarny prefixowy operator i keywaords sizeof, jako argument przyjmuje litera³, zmienn¹, wyra¿enie i jako jedyny taki nazwê typu, mówi jak du¿o bajtów zawiera argument w pamiêci albo mo¿e zawieraæ, 
+dla litera³ów nie musi byæ nawiasów w sizeof, ale dla typów tak, prirytet sizeof * & i róznieca miêdzy *p,p,&k
+chapter 4.7
+nazwa tablicy to wskaŸnik na pierwszy element tablicy, dodawanie i oejmowanie wartoœci int od wskaŸnika, odejmowanie wskaŸnika od wskaŸnika, porównywanie wskaŸników,
+dodawanie i odejmowanie inta wiaze siê z operatorem sizeof i zale¿y od typu, odejmowanie wskaxników - odejmowanie adresów! obu elemetnów i dzielenie przez rozmiar typu zmiennej! w tablicach typu int to roó¿nica w ilosæi komórek które ddzial¹ odejmowane wskazniki,
+chapter 4.8 i 4.9
+string, ASCII - 0, \0, char tab[] a string a char *, strcopy(), char a[10] = "tekst" vs char *hero = "tekst",
+i-value, 
+4.10
+protptyp funkcji, puts a printf, <string.h>, strlen(),  strncpy(), strcat() 
